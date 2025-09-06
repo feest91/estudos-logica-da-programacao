@@ -1,4 +1,5 @@
-// Lista de heróis com nome e XP
+// nome e xp
+
 let herois = [
   { nome: "Carlos", xp: 800 },
   { nome: "Leticia", xp: 1500 },
@@ -6,12 +7,11 @@ let herois = [
   { nome: "Nicolas", xp: 6000 }
 ]
 
-// Laço de repetição para percorrer cada herói
-for (let i = 0; i < herois.length; i++) {
-  let heroi = herois[i]
+// usei o for que aprendi no chatGPT ao inves de length
+
+for (let heroi of herois) {
   let nivel = ""
 
-  // Estruturas de decisão para classificar
   if (heroi.xp <= 1000) {
     nivel = "Ferro"
   } else if (heroi.xp <= 2000) {
@@ -24,7 +24,14 @@ for (let i = 0; i < herois.length; i++) {
     nivel = "Lendário 🏆"
   }
 
-  // Exibindo resultado
+  // console log
+
   console.log(`O Herói de nome ${heroi.nome} está no nível ${nivel}`)
 }
-// e possui ${heroi.xp} pontos de experiência.`)
+
+// fim do código e sainda
+// O Herói de nome Carlos está no nível Ferro
+// O Herói de nome Leticia está no nível Bronze
+// O Herói de nome Lucas está no nível Prata
+// O Herói de nome Nicolas está no nível Ouro
+
