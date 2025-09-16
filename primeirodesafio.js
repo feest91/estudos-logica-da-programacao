@@ -1,5 +1,4 @@
 // nome e xp
-
 let herois = [
   { nome: "Carlos", xp: 800 },
   { nome: "Leticia", xp: 1500 },
@@ -8,7 +7,6 @@ let herois = [
 ]
 
 // usei o for que aprendi no chatGPT ao inves de length
-
 for (let heroi of herois) {
   let nivel = ""
 
@@ -25,7 +23,6 @@ for (let heroi of herois) {
   }
 
   // console log
-
   console.log(`O Herói de nome ${heroi.nome} está no nível ${nivel}`)
 }
 

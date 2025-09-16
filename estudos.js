@@ -5,5 +5,8 @@ if (nicknameIdade >= 18) {
 } else {
     console.log("Menor de Idade");
 }
+ exit();
 
+ let nome = "Carlos tem 18 anos"
+ // aguarda confirmação
 
