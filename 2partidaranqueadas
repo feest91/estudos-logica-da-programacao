@@ -25,7 +25,7 @@ function calcularRank(vitorias, derrotas) {
 }
 
 // exemplo de uso da função
-let resultado = calcularRank(800, 150); // 750 vitórias e 200 derrotas
+let resultado = calcularRank(800, 150); // 800 vitórias e 150 derrotas
 
 // mensagem final
 console.log(`O Herói Carlos Fernandes tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`);
