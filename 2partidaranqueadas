@@ -1,0 +1,31 @@
+
+// calcular o saldo e retorna o nível
+function calcularRank(vitorias, derrotas) {
+    // calcular saldo de vitórias
+    let saldoVitorias = vitorias - derrotas;
+    
+    // variável para armazenar o nível
+    let nivel = "";
+
+    // estrutura de decisão para definir o nível
+    if (vitorias < 100) {
+        nivel = "Bronze";
+    } else if (vitorias >= 101 && vitorias <= 500) {
+        nivel = "Prata";
+    } else if (vitorias >= 501 && vitorias <= 1000) {
+        nivel = "Ouro";
+    } else if (vitorias >= 1001) {
+        nivel = "Diamante Elite";
+    } else {
+        nivel = "Indefinido"; // caso nenhum seja atendido
+    }
+
+    // retorna um objeto com o saldo e o nível
+    return { saldoVitorias, nivel };
+}
+
+// exemplo de uso da função
+let resultado = calcularRank(800, 150); // 750 vitórias e 200 derrotas
+
+// mensagem final
+console.log(`O Herói Carlos Fernandes tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`);
