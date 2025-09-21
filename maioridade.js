@@ -9,4 +9,5 @@ if (nicknameIdade >= 18) {
 
  let nome = "Carlos tem 18 anos"
  // aguarda confirmação
+ // fim 
 
