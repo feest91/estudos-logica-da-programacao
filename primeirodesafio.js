@@ -19,7 +19,7 @@ for (let heroi of herois) {
   } else if (heroi.xp <= 7000) {
     nivel = "Ouro"
   } else {
-    nivel = "Lendário 🏆"
+    nivel = "Lendário "
   }
 
   // console log
