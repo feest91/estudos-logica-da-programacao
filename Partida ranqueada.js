@@ -30,4 +30,4 @@ let resultado = calcularRank(800, 150); // 800 vitórias e 150 derrotas
 // mensagem final
 console.log(`O Herói Carlos Fernandes tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`);
 
-// carlos fernandes 
+// fim. 
