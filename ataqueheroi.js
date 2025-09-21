@@ -36,3 +36,5 @@ heroi3.atacar(); // o monge atacou usando artes marciais
 
 let heroi4 = new Heroi("Hanzo", 25, "ninja");
 heroi4.atacar(); // o ninja atacou usando shuriken
+
+// fim  
